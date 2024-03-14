@@ -1,0 +1,255 @@
+#cs_section1 {
+    width: 1200px; height: 580px;
+    background: yellow;
+    margin:0 auto;
+    text-align: center;   
+}
+#cs_section1 h2 {
+    padding-top: 60px;
+
+    color:#333; font-size: 40px;
+    letter-spacing: -4px;
+}
+
+#cs_section1 ul {
+    width: 250px; height: 290px;
+    background: cyan;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    margin: 60px 15px;
+    text-align: left;
+
+    border-radius: 20px;
+}
+
+#cs_section1 ul li:nth-child(1) {
+    padding: 20px 0 0 20px;
+}
+
+#cs_section1 ul li:nth-child(2) {
+    padding: 20px 0 0 20px;
+
+    color:#333; font-size: 20px;
+    letter-spacing: -2px;
+    font-weight: bold;
+}
+
+#cs_section1 ul li:nth-child(3) {
+    padding: 20px 0 0 20px;
+
+    color:#555; font-size: 16px;
+    letter-spacing: -1px;
+}
+
+#cs_section1 ul li:nth-child(4) {
+    padding: 30px 0 0 20px;
+
+    color:#555; font-size: 14px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+#cs_section1 ul li:nth-child(4) span {
+    color:#888; font-size: 12px;
+    font-weight: normal;
+}
+
+#cs_section1 ul li:nth-child(4) span.a {
+    padding-left: 30px;
+}
+
+#cs_section1 ul li:nth-child(4) span.b {
+    padding-left: 17px;
+}
+
+#cs_section1 ul li:nth-child(4) span.c {
+    padding-left: 60px;
+}
+
+
+/*2번*/
+#cs_section2 {
+    width: 1200px; height: 600px;
+    background: cyan;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#cs_section2 div.top {
+    width: 1100px; height: 100px;
+    line-height: 100px;
+
+    background: linear-gradient(to right, #e9002d, #fb443c);
+
+    text-align: center;
+
+    margin-top: 50px;
+    display: inline-block;
+}
+#cs_section2 div.top p {
+    display: inline-block;
+    vertical-align: middle;
+
+    color:#fff;
+   
+}
+#cs_section2 div.top p span {
+    font-size: 13px;
+}
+#cs_section2 div.top p.btn {
+    width: 100px; height: 40px;
+    line-height: 40px;
+    border: 1px solid #fff;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+#cs_section2 ul {
+    width: 1100px; height: 220px;
+    background: yellowgreen;
+    margin: 0 auto;
+    border: 1px solid red;
+
+    box-sizing: border-box;
+}
+
+#cs_section2 ul li {
+    width: 500px; height: 110px;
+    background: yellow;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+
+    margin: 0 10px;
+    text-align: left;
+}
+
+#cs_section2 ul li:nth-child(1){
+    border-bottom: 2px solid blue;
+}
+
+#cs_section2 ul li:nth-child(2){
+    border-bottom: 2px solid blue;
+}
+#cs_section2 ul li p {
+    display: inline-block;
+    
+}
+#cs_section2 ul li p.img {
+    padding-top: 5px;
+}
+#cs_section2 ul li p.txt {
+    padding-left: 10px;
+    width: 300px;
+    
+    font-size: 15px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+#cs_section2 ul li p.icon {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+#cs_section2 div.post_banner {
+    width: 1100px; height: 100px;
+    background: pink;
+    margin: 50px auto;
+}
+#cs_section2 div.post_banner p {
+    display: inline-block;
+}
+
+#cs_section2 div.post_banner p.img {
+    padding-left: 80px;
+}
+#cs_section2 div.post_banner p.txt {
+    padding-left: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+#cs_section2 div.post_banner p.txt span {
+    font-size: 18px;
+    color:#666;
+    font-weight: normal;
+}
+#cs_section2 div.post_banner p.btn {
+    width: 140px; height: 40px;
+    line-height: 40px;
+    border: 1px solid #000;
+
+    margin-left: 100px;
+    cursor: pointer;
+
+    font-size: 14px;
+    color:#333;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+/*3번*/
+#cs_section3 {
+    width: 1200px; height: 300px;
+    background: yellow;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#cs_section3 ul {
+    width: 410px; height: 250px;
+    background: greenyellow;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+
+    margin: 25px 15px;
+}
+
+#cs_section3 ul h2 {
+    padding-top: 40px;
+
+    color:#333; font-size: 22px;
+    letter-spacing: -2px;
+}
+#cs_section3 ul li {
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+#cs_section3 ul li.box {
+    width: 160px;
+    height: 130px;
+    background: orange;
+}
+
+#cs_section3 ul li.box p.txt {
+    font-size: 13px;
+    letter-spacing: -1px;
+}
+
+#cs_section3 ul li.line {
+    width: 2px;
+    height: 120px;
+    background: red;
+    margin: 20px;
+}
+
+
+
+#cs_section3 ul.gray {
+    width: 340px; height: 250px;
+    background: #ccc;
+    border: 1px solid red;
+}
+#cs_section3 ul.gray li p.img {
+    padding-top: 20px;
+}
+#cs_section3 ul.gray li p.txt {
+    padding-top: 20px;
+    color:#555; font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}

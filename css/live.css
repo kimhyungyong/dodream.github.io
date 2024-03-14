@@ -1,0 +1,252 @@
+#live_section1 {
+    width: 1200px; height: 700px;
+    
+    margin: 0 auto;
+    text-align: center;
+}
+#live_section1 ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 30px;
+}
+#live_section1 ul li:nth-child(1) {
+    width: 420px; height: 300px;
+    
+}
+
+#live_section1 ul li:nth-child(1) h4 {
+    color:#666; font-size: 32px;
+    letter-spacing: -3px;
+    font-weight: normal;
+
+    padding-top: 20px;
+}
+
+#live_section1 ul li:nth-child(1) h2 {
+    color:#65b6f7; font-size: 72px;
+    letter-spacing: -6px;
+
+}
+#live_section1 ul li:nth-child(1) p.line {
+    width: 40px; height: 1px;
+    background: #65b6f7;
+    margin: 20px auto;
+}
+
+#live_section1 ul li:nth-child(1) p.txt {
+    color:#999; font-size: 24px;
+    letter-spacing: -2px;
+
+}
+
+
+
+#live_section1 ul li:nth-child(2) {
+    width: 582px; height: 640px;
+    
+}
+
+/*2번*/
+#live_section2 {
+    width: 1200px; height: 700px;
+
+    margin: 0 auto;
+    text-align: center;
+}
+#live_section2 h2 {
+    padding-top: 130px;
+    color:#333; font-size: 34px;
+    letter-spacing: -3px;
+}
+
+#live_section2 h2 span {
+    background: #ffd600;
+}
+
+#live_section2 ul {
+    width: 220px; height: 260px;
+    background: pink;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    margin: 50px 75px;
+}
+
+
+#live_section2 ul li:last-child {
+    padding-top: 5px;
+    color:#555; font-size: 20px;
+    letter-spacing: -2px;
+}
+
+#live_section2 ul li:last-child span {
+    font-weight: bold;
+}
+
+#live_section2 p.btn {
+    width: 540px;
+    height: 90px;
+    line-height: 90px;
+    background: #44a4f1 url(../images/live_btn_arrow.jpg)no-repeat 395px 30px;
+    border-radius: 50px;
+
+    margin: 0 auto;
+
+   
+}
+#live_section2 p.btn a {
+    color:#fff; font-size: 30px;
+    letter-spacing: -3px;
+}
+
+#live_section2 p.btn:hover {
+    background: #44a4f1 url(../images/live_btn_arrow_r.jpg)no-repeat 395px 30px
+}
+#live_section2 p.btn:hover a {
+    color:#ffd600;
+}
+
+
+#live_section3 {
+    width: 1200px; height: 1300px;
+    background: #64aeeb;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#live_section3 p.title {
+    width: 245px; height: 60px;
+    line-height: 60px;
+    border: 2px solid #fff;;
+    border-radius: 50px;
+
+    margin-top: 80px;
+    display: inline-block;
+
+    color:#fff;
+    font-size: 28px; letter-spacing: -1px;
+    font-weight: bold; text-transform: uppercase;
+}
+
+#live_section3 h2 {
+    padding-top: 60px;
+    color:#333; font-size: 42px;
+    letter-spacing: -4px;
+}
+
+#live_section3 h2 span {
+    color:#fff217;
+    text-decoration: underline;
+}
+
+#live_section3 p.img {
+    padding-top: 40px;
+}
+#live_section3 ul {
+    margin: 30px 0;
+}
+#live_section3 ul li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#live_section3 ul li:nth-child(1) {
+    width: 155px; height: 45px;
+    line-height: 45px;
+    border:2px solid #fff;
+    border-radius: 30px;
+    color:#fff;
+}
+
+#live_section3 ul li:nth-child(2){
+    width: 450px; height: 45px;
+    line-height: 45px;
+    background: green;
+    text-align: left;
+
+    color:#fff;
+    font-size: 22px;
+    letter-spacing: -1px;
+    margin-left: 15px;
+}
+
+#live_section3 ul li:nth-child(2) span {
+    font-size: 16px;
+}
+
+#live_section3 ul.last li:nth-child(2){
+    height: auto;
+    line-height: 1.2;
+    padding-top: 10px;
+}
+
+#live_section3 p.btn {
+    width: 690px;
+    height: 100px;
+    line-height: 100px;
+    background: #000;
+
+    color:#fff; font-size: 30px;
+    letter-spacing: -3px;
+    border-radius: 80px;
+    margin: 60px auto;
+    cursor: pointer;
+}
+
+#live_section3 p.btn:hover {
+    background: orange;
+}
+
+/*4번*/
+
+#live_section4 {
+    width: 1200px; height: 340px;
+    background: #3b7eb5;
+    margin: 0 auto;
+    text-align: center;
+}
+#live_section4 p {
+    display: inline-block;
+    vertical-align: middle;
+
+    margin-top: 30px;
+}
+
+#live_section4 h4 {
+    padding-top: 80px;
+
+    color:#fff; font-size: 32px;
+    letter-spacing: -3px;
+    font-weight: normal;
+}
+
+/*5번*/
+#live_section5 {
+    width: 1200px; height: 460px;
+    background: cyan;
+    margin: 0 auto;
+}
+
+#live_section5 h2 {
+    padding: 60px 0 30px 260px;
+
+    color:#333;
+    font-size: 32px;
+    letter-spacing: -3px;
+    font-weight: normal;
+}
+#live_section5 h2 span {
+    color:#347cb6;
+}
+
+#live_section5 p.txt {
+    padding: 20px 0 0 260px;
+
+    color:#666; font-size: 18px;
+    letter-spacing: -1px;
+    line-height: 1.4;
+}
+#live_section5 p.txt b {
+    padding-left: 10px;
+}

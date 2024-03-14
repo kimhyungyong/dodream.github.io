@@ -1,0 +1,146 @@
+/*웹폰트-뫼비우스폰트*/
+
+@font-face {
+    font-family: 'Moebius Korea';
+    src: url('../font/MoebiusKorea-Bold.woff2') format('woff2'),
+        url('../font/MoebiusKorea-Bold.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+/*웹폰트-배달의민족도현*/
+@font-face {
+    font-family: 'BMDOHYEON';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*초기설정*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+/*레이아웃*/
+/*상단공지사항&메뉴*/
+#wrap_top {
+    width: 100%;
+    height: 50px;
+    background: #333;
+}
+
+#top {
+    width: 1200px;
+    height: 50px;
+    line-height: 50px;
+
+    margin: 0 auto;
+}
+
+#top p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#top p.notice {
+    padding-left: 40px;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#top p.notice span {
+    padding-left: 30px;
+    color: #ccc;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+#top p a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+#top p.event {
+    margin-left: 650px;
+}
+
+#top p.line {
+    width: 1px;
+    height: 10px;
+    background: #aaa;
+    margin: 0 5px;
+}
+
+#top p:hover a {
+    color: #aaa;
+}
+
+/*로고영역*/
+#wrap_logo {
+    width: 100%;
+    height: 80px;
+    background: #ffd600;
+}
+
+#logo {
+    width: 1200px;
+    height: 80px;
+
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*메뉴영역*/
+#nav {
+    width: 1200px;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#nav p {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 60px;
+}
+
+
+#nav p a {
+    font-family: 'Moebius Korea';
+    color: #333;
+    font-size: 24px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#nav p:hover a {
+    color: #ffd600;
+    text-decoration: underline;
+}
+
+/****공통상단영역 끝****/

@@ -1,0 +1,66 @@
+/*카피라이트*/
+#wrap_copyright {
+    width: 100%;
+    height: 260px;
+    background: url(../images/copyright_bg.jpg);
+}
+
+#copyright {
+    width: 1200px;
+    height: 260px;
+    background: #1b1b1b;
+    margin: 0 auto;
+}
+
+#copyright div.notice {
+    width: 1200px;
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid #2f2f2f;
+    border-bottom: 1px solid #2f2f2f;
+
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#copyright div.notice p {
+    padding-left: 20px;
+    color: #999;
+    letter-spacing: -1px;
+}
+
+#copyright div.notice p span {
+    padding-left: 15px;
+}
+
+#copyright p.menu {
+    display: inline-block;
+    vertical-align: middle;
+
+    padding: 30px 0 0 30px;
+}
+
+#copyright p.menu a {
+    color: #555;
+    font-size: 14px;
+    letter-spacing: -1px;
+}
+
+#copyright p.menu:hover a {
+    color: #f2f2f2
+}
+
+#copyright h5 {
+    padding: 20px 0 0 30px;
+    color: #666;
+    font-size: 13px;
+    letter-spacing: -1px;
+}
+
+#copyright h5 span {
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    background: #2f2f2f;
+    margin: 0 5px;
+}
